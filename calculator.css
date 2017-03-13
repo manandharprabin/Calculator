@@ -1,0 +1,71 @@
+body, div, a {  
+    padding:0;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body{
+  background: gray;
+  background-size:cover;
+}
+h3{
+  font-family:Lobster;
+  text-align:center;
+   font-size:20px;
+}
+
+#calculator {
+    background-color: silver;
+    width: 300px;
+    height: 495px;
+    border: 3px gray solid;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  
+}
+#display {
+    height: 50px;
+    width: 290px;
+    margin:auto;
+    background-color:white;
+    margin-bottom: 5px;
+    text-align: right;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.2);
+  letter-spacing:1px;
+    font-size: 40px;
+    padding: 0 5px;
+  border-radius:5px;
+}
+#keys a {
+  cursor:pointer;
+    display: block;
+    width: 45px;
+    height: 45px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 30pt;
+    padding: 10px;
+    margin: 5px 5px;
+    background-color:rgba(0,155,155,0.5);
+    border-radius: 10px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+ }
+#keys a.eval{width:120px;}
+#keys a.allclear, #keys a.clear{
+  background-color:rgba(200,0,0,0.5);
+}
+#display,#keys{
+  overflow:hidden;
+}
+#keys a:hover{
+  background:skyblue;
+  color:rgba(255,255,255,0.5);
+  box-shadow:0px 4px gray;
+}
+#keys a:active{
+  box-shadow:0px 0px gray;
+  top:4px;
+}
